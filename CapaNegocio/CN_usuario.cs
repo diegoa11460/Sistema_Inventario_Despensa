@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CapaDatos;
+using CapaEntidad;
+
+namespace CapaNegocio
+{
+    public class CN_Usuario
+    {
+        private CD_usuario objcd_usuario = new CD_usuario();
+
+        public List<Usuario> Listar()
+        {
+            return objcd_usuario.Listar();
+        }
+
+        public int Registrar(Usuario obj, out string Mensaje)
+        {
+            Mensaje = string.Empty;
+
+            if (string.IsNullOrEmpty(obj.Documento))
+            {
+                Mensaje += "Es necesario el número de Documento/Cédula.\n";
+            }
+            if (string.IsNullOrEmpty(obj.NombreCompleto))
+            {
+                Mensaje += "Es necesario el Nombre Completo del usuario.\n";
+            }
+            if (string.IsNullOrEmpty(obj.Clave))
+            {
+                Mensaje += "Es necesario ingresar una Contraseña.\n";
+            }
+
+            if (!string.IsNullOrEmpty(Mensaje))
+            {
+                return 0;
+            }
+            else
+            {
+                return objcd_usuario.Registrar(obj, out Mensaje);
+            }
+        }
+
+        public bool Editar(Usuario obj, out string Mensaje)
+        {
+            Mensaje = string.Empty;
+
+            if (string.IsNullOrEmpty(obj.Documento))
+            {
+                Mensaje += "Es necesario el número de Documento/Cédula.\n";
+            }
+            if (string.IsNullOrEmpty(obj.NombreCompleto))
+            {
+                Mensaje += "Es necesario el Nombre Completo.\n";
+            }
+
+            if (!string.IsNullOrEmpty(Mensaje))
+            {
+                return false;
+            }
+            else
+            {
+                return objcd_usuario.Editar(obj, out Mensaje);
+            }
+        }
+
+        // 👇 AQUÍ ESTÁ EL MÉTODO ELIMINAR QUE FALTABA 👇
+        public bool Eliminar(Usuario obj, out string Mensaje)
+        {
+            return objcd_usuario.Eliminar(obj, out Mensaje);
+        }
+        // 👆 ========================================= 👆
+    }
+}

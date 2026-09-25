@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F637BAC-A412-46C3-AE37-F5B6A7CE1898}|CapaDatos\\CapaDatos.csproj|c:\\users\\diego lopez\\desktop\\menu_sistema\\capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F637BAC-A412-46C3-AE37-F5B6A7CE1898}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F637BAC-A412-46C3-AE37-F5B6A7CE1898}|CapaDatos\\CapaDatos.csproj|C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\capadatos\\cd_categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F637BAC-A412-46C3-AE37-F5B6A7CE1898}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\sistema_inventario\\form_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|solutionrelative:sistema_inventario\\form_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\sistema_inventario\\form_ventas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|solutionrelative:sistema_inventario\\form_ventas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\sistema_inventario\\form_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|solutionrelative:sistema_inventario\\form_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\sistema_inventario\\form_movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|solutionrelative:sistema_inventario\\form_movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\sistema_inventario\\form_inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|solutionrelative:sistema_inventario\\form_inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\sistema_inventario\\form_inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|solutionrelative:sistema_inventario\\form_inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\sistema_inventario\\form_inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC768E0-3AA3-43E7-B21D-3E2D1D578142}|Sistema_inventario\\Sistema_inventario.csproj|solutionrelative:sistema_inventario\\form_inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CD_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\CapaDatos\\CD_Cliente.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CD_Cliente.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\CapaDatos\\CD_Cliente.cs",
+              "RelativeToolTip": "CapaDatos\\CD_Cliente.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T16:20:19.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CD_Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\CapaDatos\\CD_Categorias.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CD_Categorias.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\CapaDatos\\CD_Categorias.cs",
+              "RelativeToolTip": "CapaDatos\\CD_Categorias.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T16:20:09.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_Ventas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Ventas.Designer.cs",
+              "RelativeDocumentMoniker": "Sistema_inventario\\Form_Ventas.Designer.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Ventas.Designer.cs",
+              "RelativeToolTip": "Sistema_inventario\\Form_Ventas.Designer.cs",
+              "ViewState": "AgIAAOECAAAAAAAAAAAAwP0CAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T21:30:05.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_Ventas.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Ventas.cs",
+              "RelativeDocumentMoniker": "Sistema_inventario\\Form_Ventas.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Ventas.cs",
+              "RelativeToolTip": "Sistema_inventario\\Form_Ventas.cs",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAkwKABAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T21:23:57.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form_Ventas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Ventas.cs",
+              "RelativeDocumentMoniker": "Sistema_inventario\\Form_Ventas.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Ventas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema_inventario\\Form_Ventas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T21:23:55.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form_Movimiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Movimiento.cs",
+              "RelativeDocumentMoniker": "Sistema_inventario\\Form_Movimiento.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Movimiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema_inventario\\Form_Movimiento.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T21:03:37.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form_Inicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Inicio.Designer.cs",
+              "RelativeDocumentMoniker": "Sistema_inventario\\Form_Inicio.Designer.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Inicio.Designer.cs",
+              "RelativeToolTip": "Sistema_inventario\\Form_Inicio.Designer.cs",
+              "ViewState": "AgIAAE4DAAAAAAAAAAAAwHMDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T20:52:32.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form_Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Inicio.cs",
+              "RelativeDocumentMoniker": "Sistema_inventario\\Form_Inicio.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema_inventario\\Form_Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T20:39:50.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form_Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Inicio.cs",
+              "RelativeDocumentMoniker": "Sistema_inventario\\Form_Inicio.cs",
+              "ToolTip": "C:\\Users\\Diego Lopez\\Desktop\\Menu_sistema\\Sistema_inventario\\Form_Inicio.cs",
+              "RelativeToolTip": "Sistema_inventario\\Form_Inicio.cs",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAuwKMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T13:39:42.74Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

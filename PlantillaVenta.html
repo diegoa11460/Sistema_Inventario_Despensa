@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalle de Venta</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #374151; margin: 0; padding: 30px; font-size: 12px; }        
+        .header-table { width: 100%; border-bottom: 2px solid #16223F; padding-bottom: 15px; margin-bottom: 20px; }        
+        /* 🌟 Diseño del recuadro para el logo */
+        .logo-negocio { 
+            max-height: 65px; 
+            max-width: 150px; 
+            display: block; 
+            border: 2px solid #16223F;
+            padding: 4px;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }        
+        /* 🌟 Textos centrados */
+        .nombre-negocio { font-size: 22px; font-weight: 800; color: #16223F; text-transform: uppercase; letter-spacing: 1px; text-align: center; }
+        .info-negocio { font-size: 12px; color: #6B7280; line-height: 1.5; margin-top: 5px; text-align: center; }        
+        .doc-box { width: 100%; border: 2px solid #16223F; border-radius: 6px; border-collapse: separate; overflow: hidden; }
+        .doc-box .tipo { background-color: #16223F; color: #FFFFFF; font-size: 13px; font-weight: bold; text-align: center; padding: 8px; text-transform: uppercase; letter-spacing: 1px; }
+        .doc-box .numero { font-size: 17px; font-weight: bold; text-align: center; padding: 10px; color: #111827; background-color: #F9FAFB; }        
+        .seccion-titulo { font-size: 13px; font-weight: bold; color: #16223F; text-transform: uppercase; letter-spacing: 0.5px; margin: 25px 0 10px 0; border-bottom: 2px solid #E5E7EB; padding-bottom: 6px; }
+        .info-table { width: 100%; font-size: 12px; border-collapse: collapse; margin-bottom: 20px; }
+        .info-table td { padding: 6px 0; }
+        .info-table .label { font-weight: 600; color: #4B5563; width: 18%; }
+        .info-table .valor { color: #111827; width: 32%; font-weight: 500; }        
+        .detalle-table { width: 100%; font-size: 11px; border-collapse: collapse; margin-top: 10px; }
+        .detalle-table th, .detalle-table td { border: 1px solid #E5E7EB; }
+        .detalle-table thead th { background-color: #16223F; color: #FFFFFF; text-align: center; padding: 10px 6px; font-weight: 600; text-transform: uppercase; font-size: 10px; letter-spacing: 0.5px; }
+        .detalle-table tbody td { text-align: center; padding: 8px 6px; color: #374151; }
+        .detalle-table tbody tr:nth-child(even) { background-color: #F9FAFB; }        
+        .total-box { width: 250px; border: 2px solid #16223F; border-radius: 6px; border-collapse: separate; overflow: hidden; margin-bottom: 10px; }
+        .total-box .titulo { background-color: #16223F; color: #FFFFFF; font-size: 13px; font-weight: bold; text-align: center; padding: 8px; text-transform: uppercase; letter-spacing: 1px; }
+        .total-box .valor { font-size: 18px; font-weight: bold; text-align: center; padding: 12px; color: #111827; background-color: #F9FAFB; }    
+        
+        .caja-pago { border: 2px solid #E5E7EB; border-radius: 6px; border-collapse: separate; overflow: hidden; margin-bottom: 10px;}
+        .caja-pago .titulo { background-color: #F3F4F6; color: #374151; font-size: 11px; font-weight: bold; text-align: center; padding: 6px; text-transform: uppercase;}
+        .caja-pago .valor { font-size: 14px; font-weight: bold; text-align: center; padding: 8px; color: #111827; background-color: #FFFFFF;}
+    </style>
+</head>
+<body>    
+    <!-- 🌟 Encabezado dividido en 3 columnas -->    
+    <table class="header-table" border="0" cellpadding="0" cellspacing="0">        
+        <tr>            
+            <!-- 1. Columna Izquierda: Logo con recuadro -->            
+            <td style="width: 25%;" valign="middle" align="left">                
+                <img class="logo-negocio" src="@logonegocio" />            
+            </td>                        
+            
+            <!-- 2. Columna Central: Datos del negocio al medio -->            
+            <td style="width: 45%;" valign="middle" align="center">                
+                <div class="nombre-negocio">@nombrenegocio</div>                
+                <div class="info-negocio">
+                    RUC: @docnegocio<br />
+                    Dirección: @direcnegocio                
+                </div>            
+            </td>                        
+            
+            <!-- 3. Columna Derecha: Cuadro de documento (Cambio aplicado: TICKET DE VENTA fijo arriba) -->            
+            <td style="width: 30%;" valign="middle" align="right">                
+                <table class="doc-box">                    
+                    <tr><td class="tipo" style="background-color: #16223F; color: #FFFFFF;">TICKET DE VENTA</td></tr>                    
+                    <tr><td class="numero" style="background-color: #F9FAFB;">@numerodocumento</td></tr>                
+                </table>            
+            </td>        
+        </tr>    
+    </table>    
+    
+    <div class="seccion-titulo">Información del Cliente</div>    
+    <table class="info-table">        
+        <tr>            
+            <td class="label">Documento:</td>            
+            <td class="valor">@doccliente</td>            
+            <td class="label">Fecha Registro:</td>            
+            <td class="valor">@fecharegistro</td>        
+        </tr>        
+        <tr>            
+            <td class="label">Nombre:</td>            
+            <td class="valor">@nombrecliente</td>            
+            <td class="label">Usuario Registro:</td>            
+            <td class="valor">@usuarioregistro</td>        
+        </tr>
+        <!-- Cambio aplicado: Método de pago debajo del usuario -->
+        <tr>            
+            <td class="label"></td>            
+            <td class="valor"></td>            
+            <td class="label">Método de Pago:</td>            
+            <td class="valor">@tipodocumento</td>        
+        </tr>  
+    </table>    
+    
+    <div class="seccion-titulo">Detalle de Productos</div>    
+    <table class="detalle-table">        
+        <thead>            
+            <tr>                
+                <th>Producto</th>                
+                <th>Precio</th>                
+                <th>Cantidad</th>                
+                <th>Sub Total</th>            
+            </tr>        
+        </thead>        
+        <tbody>
+            @filas        
+        </tbody>    
+    </table>    
+    
+    <!-- FIX: Wrapper en formato tabla para que Word lo alinee y no expanda el tamaño -->
+    <!-- Truco de 2 columnas para forzar a iTextSharp a alinear a la derecha -->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top: 20px;">
+        <tr>
+            <!-- Columna izquierda: 70% de espacio vacío -->
+            <td width="70%"></td>
+            
+            <!-- Columna derecha: 30% del espacio para las cajas de totales -->
+            <td width="30%" align="right">
+                
+                <!-- Caja de Monto Total -->
+                <table class="total-box">
+                    <tr>
+                        <td class="titulo">Monto Total</td>
+                    </tr>
+                    <tr>
+                        <td class="valor">@montototal</td>
+                    </tr>
+                </table>
+
+                <!-- Caja de Pagó Con -->
+                <table class="caja-pago" style="width: 250px;">
+                    <tr>
+                        <td class="titulo">Pagó Con</td>
+                    </tr>
+                    <tr>
+                        <td class="valor">@pagocon</td>
+                    </tr>
+                </table>
+
+                <!-- Caja de Cambio -->
+                <table class="caja-pago" style="width: 250px;">
+                    <tr>
+                        <td class="titulo">Cambio</td>
+                    </tr>
+                    <tr>
+                        <td class="valor">@cambio</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
